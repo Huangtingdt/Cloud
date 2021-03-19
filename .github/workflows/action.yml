@@ -5,7 +5,7 @@ name: CloudMusic
 
 on:
   schedule:
-    - cron: "0 16 * * *"
+    - cron: "0 16,4 * * *"
   workflow_dispatch:
 
 jobs:
